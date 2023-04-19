@@ -1,0 +1,210 @@
+/* змінні */
+:root {
+  --filter-btn: #f4f4fd;
+  --btn-color: #4d5ae5;
+  /* головний колір тексту заданий у body */
+  --main-text-color: #434455;
+  /* головний колір фону заданий у body */
+  --background-color: #ffffff;
+  --font-femily: 'Roboto';
+  /* підзаголовки на головній , навігація в шапці */
+  --nav-link-color: #2e2f42;
+  /* колір активних посилань у шапці і кнопки на герої */
+  --nav-link-hover: #404bbf;
+}
+/* глобальні для баді */
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+/* герой */
+.hero {
+  background-color: #2e2f42;
+}
+/* списки */
+.list {
+  list-style: none;
+}
+/* посилання */
+.link {
+  text-decoration: none;
+}
+/* шапка посилання */
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+/* шапка посилання активний стан */
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+/* кнопки */
+.button {
+  cursor: pointer;
+}
+/* кнопка замовлень на головній сторінці */
+.order-btn {
+  font-family: 'Roboto', sans-serif;
+  width: 169px;
+  height: 56px;
+  /* IRIS */
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  /* WHITE */
+  color: #ffffff;
+}
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #404bbf;
+}
+.filtr-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--btn-color);
+  background-color: var(--filter-btn);
+}
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+/* логотип */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
+/* пошта телефон */
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+}
+/* пошта телефон активний стан */
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+/* виділяє поточну сторінку в меню навігації */
+.link.nav-link.carrent {
+  color: #404bbf;
+}
+/* заголовки */
+.title {
+  color: #2e2f42;
+}
+.title.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* WHITE */
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+.title.studio-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+.subtitles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.teamcard-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+
+/* приховування заголовка */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.sbtitle-text-transform {
+  text-transform: capitalize;
+}
+/* параграфи */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer {
+  /* NAVY BLUE */
+  background: #2e2f42;
+}
+.footer-text {
+  /* CLOUD */
+  color: #f4f4fd;
+}
+.card-text {
+  color: #434455;
+}
+/* колір фону секції для команди */
+.team-backcolor {
+  background-color: #f4f4fd;
+}
+/* колір фону для фото команди */
+.team-cards {
+  background-color: #ffffff;
+}
