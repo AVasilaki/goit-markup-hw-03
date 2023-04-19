@@ -208,3 +208,19 @@ body {
 .team-cards {
   background-color: #ffffff;
 }
+/* глобальне скидання марджинів заголовків і параграфів */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* глобальне скидання марджинів списків */
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
