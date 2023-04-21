@@ -18,9 +18,46 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
+/* контейнер */
+.container {
+  outline: auto;
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  outline: auto;
+}
+/* флекси */
+.section-header {
+  display: flex;
+  align-items: center;
+}
+.navigation-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.adress-list {
+  display: flex;
+}
+.item-menu:not(:last-child) {
+  margin-right: 40px;
+}
+
 /* герой */
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 /* списки */
 .list {
@@ -51,6 +88,9 @@ body {
 }
 /* кнопка замовлень на головній сторінці */
 .order-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Roboto', sans-serif;
   width: 169px;
   height: 56px;
@@ -95,6 +135,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 78px;
 }
 .logo-studio {
   color: #2e2f42;
@@ -227,14 +268,6 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-/* контейнер */
-.container {
-  outline: auto;
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section {
-  outline: auto;
+img {
+  display: block;
 }
