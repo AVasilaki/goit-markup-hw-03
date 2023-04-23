@@ -118,26 +118,6 @@ body {
   padding-bottom: 188px;
   margin-bottom: 120px;
 }
-/* майбутнє */
-.feature {
-  margin-bottom: 120px;
-}
-.feature-list {
-  display: flex;
-  justify-content: space-between;
-}
-.feature-items {
-  max-width: 264px;
-}
-/* списки */
-.list {
-  list-style: none;
-}
-/* посилання */
-.link {
-  text-decoration: none;
-}
-
 /* кнопки */
 .button {
   cursor: pointer;
@@ -167,6 +147,36 @@ body {
 .order-btn:focus {
   background-color: #404bbf;
 }
+/* секція2 майбутнє */
+.feature {
+  margin-bottom: 120px;
+}
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-items {
+  max-width: 264px;
+}
+/* секція3 що ми робимо */
+.what-are-doin {
+  margin-bottom: 72px;
+}
+.samples-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+/* списки */
+.list {
+  list-style: none;
+}
+/* посилання */
+.link {
+  text-decoration: none;
+}
+
 .filtr-btn {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
