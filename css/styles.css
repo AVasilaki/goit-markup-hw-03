@@ -27,7 +27,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+/* секції */
 .section {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -54,6 +54,7 @@ body {
 .item-menu:not(:last-child) {
   margin-right: 40px;
 }
+
 /* логотип */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -115,6 +116,18 @@ body {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  margin-bottom: 120px;
+}
+/* майбутнє */
+.feature {
+  margin-bottom: 120px;
+}
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-items {
+  max-width: 264px;
 }
 /* списки */
 .list {
