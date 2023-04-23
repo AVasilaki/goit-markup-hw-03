@@ -116,7 +116,6 @@ body {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
 }
 /* кнопки */
 .button {
@@ -148,8 +147,9 @@ body {
   background-color: #404bbf;
 }
 /* секція2 майбутнє */
-.feature {
-  margin-bottom: 120px;
+
+.feature-description {
+  padding-top: 120px;
 }
 .feature-list {
   display: flex;
@@ -159,6 +159,7 @@ body {
   max-width: 264px;
 }
 /* секція3 що ми робимо */
+
 .what-are-doin {
   margin-bottom: 72px;
 }
@@ -167,6 +168,35 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   flex-basis: calc((100% - 2 * 24px) / 3);
+}
+/*  команда*/
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+/* колір фону секції для команди */
+.team-backcolor {
+  background-color: #f4f4fd;
+}
+/* колір фону для фото команди */
+.team-cards {
+  background-color: #ffffff;
+}
+.teamcard-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  /* NAVY BLUE */
+  color: #2e2f42;
 }
 /* списки */
 .list {
@@ -226,15 +256,6 @@ body {
   /* NAVY BLUE */
   color: #2e2f42;
 }
-.teamcard-titles {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-}
 
 /* приховування заголовка */
 .visually-hidden {
@@ -269,14 +290,7 @@ body {
 .card-text {
   color: #434455;
 }
-/* колір фону секції для команди */
-.team-backcolor {
-  background-color: #f4f4fd;
-}
-/* колір фону для фото команди */
-.team-cards {
-  background-color: #ffffff;
-}
+
 /* глобальне скидання марджинів заголовків і параграфів */
 h1,
 h2,
