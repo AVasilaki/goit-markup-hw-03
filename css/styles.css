@@ -29,14 +29,16 @@ body {
 }
 
 .section {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   outline: auto;
 }
 /* флекси */
 .section-header {
   display: flex;
   align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .navigation-menu {
   display: flex;
@@ -52,7 +54,62 @@ body {
 .item-menu:not(:last-child) {
   margin-right: 40px;
 }
-
+/* логотип */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 78px;
+}
+.logo-studio {
+  color: #2e2f42;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
+/* шапка посилання */
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+/* шапка посилання активний стан */
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+/* пошта телефон */
+.contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+.contacts-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  /* SLATE */
+  color: #434455;
+}
+/* пошта телефон активний стан */
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+.contacts-link.tel {
+  margin-left: 40px;
+}
 /* герой */
 .hero {
   background-color: #2e2f42;
@@ -67,21 +124,7 @@ body {
 .link {
   text-decoration: none;
 }
-/* шапка посилання */
-.nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 
-  /* NAVY BLUE */
-  color: #2e2f42;
-}
-/* шапка посилання активний стан */
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
 /* кнопки */
 .button {
   cursor: pointer;
@@ -125,47 +168,6 @@ body {
 .filtr-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
-}
-/* логотип */
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 78px;
-}
-.logo-studio {
-  color: #2e2f42;
-}
-.studio-footer {
-  color: #f4f4fd;
-}
-/* пошта телефон */
-.contacts {
-  font-style: normal;
-}
-.contacts-link {
-  font-weight: 400;
-  font-size: 16px;
-
-  line-height: 1.5;
-
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-}
-/* пошта телефон активний стан */
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
-}
-/* виділяє поточну сторінку в меню навігації */
-.link.nav-link.carrent {
-  color: #404bbf;
 }
 /* заголовки */
 .title {
