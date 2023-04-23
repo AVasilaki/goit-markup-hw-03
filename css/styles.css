@@ -69,9 +69,7 @@ body {
 .logo-studio {
   color: #2e2f42;
 }
-.studio-footer {
-  color: #f4f4fd;
-}
+
 /* шапка посилання */
 .nav-link {
   font-weight: 500;
@@ -198,6 +196,24 @@ body {
   /* NAVY BLUE */
   color: #2e2f42;
 }
+/* підвал */
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* NAVY BLUE */
+  background: #2e2f42;
+}
+.logo-footer {
+}
+.footer-text {
+  margin-top: 16px;
+  max-width: 264px;
+  /* CLOUD */
+  color: #f4f4fd;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
 /* списки */
 .list {
   list-style: none;
@@ -279,14 +295,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.footer {
-  /* NAVY BLUE */
-  background: #2e2f42;
-}
-.footer-text {
-  /* CLOUD */
-  color: #f4f4fd;
-}
+
 .card-text {
   color: #434455;
 }
