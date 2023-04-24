@@ -55,6 +55,9 @@ body {
   margin-right: 40px;
 }
 /* header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 /* логотип */
 
 .logo {
@@ -258,6 +261,7 @@ body {
   padding-bottom: 32px;
 }
 .img-portfolio {
+  border-bottom: 1px solid #e7e9fc;
   margin-bottom: 32px;
 }
 /* заголовки */
