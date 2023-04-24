@@ -164,6 +164,7 @@ body {
 .what-are-doin {
   margin-bottom: 72px;
 }
+/* сітка елементів */
 .samples-list {
   display: flex;
   flex-wrap: wrap;
@@ -206,8 +207,7 @@ body {
   /* NAVY BLUE */
   background: #2e2f42;
 }
-.logo-footer {
-}
+
 .footer-text {
   margin-top: 16px;
   max-width: 264px;
@@ -232,6 +232,8 @@ body {
 }
 .filtr-list {
   display: flex;
+  margin-bottom: 72px;
+  justify-content: center;
 }
 .filtr-btn {
   font-family: 'Roboto', sans-serif;
@@ -251,6 +253,12 @@ body {
 .filtr-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+.portfolio-cards {
+  padding-bottom: 32px;
+}
+.img-portfolio {
+  margin-bottom: 32px;
 }
 /* заголовки */
 .title {
