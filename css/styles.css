@@ -258,6 +258,10 @@ body {
 .studio-footer {
   color: #f4f4fd;
 }
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* списки */
 .list {
   list-style: none;
