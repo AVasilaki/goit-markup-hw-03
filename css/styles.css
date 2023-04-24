@@ -2,6 +2,7 @@
 :root {
   --filter-btn: #f4f4fd;
   --btn-color: #4d5ae5;
+  --border-filtr-btn: #e7e9fc
   /* головний колір тексту заданий у body */
   --main-text-color: #434455;
   /* головний колір фону заданий у body */
@@ -269,14 +270,18 @@ body {
   text-decoration: none;
 }
 /* portfolio */
+
+/* падінги секції */
+
 .main-portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding: 96px 0 120px;
 }
+/* кнопки фільтра */
 .filtr-list {
   display: flex;
   margin-bottom: 72px;
   justify-content: center;
+  gap: 24px;
 }
 .filtr-btn {
   font-family: 'Roboto', sans-serif;
@@ -285,17 +290,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  color: var(--btn-color);
+  padding: 12px 24px;
+  border: 1px solid var(--border-filtr-btn);
+  color:  #4D5AE5;
   background-color: var(--filter-btn);
+  border-radius: 4px;
 }
 .filtr-btn:hover,
 .filtr-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .portfolio-cards {
   padding-bottom: 32px;
