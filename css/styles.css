@@ -25,11 +25,15 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: auto;
 }
 /* секції */
 .section {
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: auto;
 }
 /* флекси */
 .section-header {
@@ -45,12 +49,12 @@ body {
 .nav-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
-.adress-list {
-  display: flex;
-}
-.item-menu:not(:last-child) {
-  margin-right: 40px;
+
+.item-menu {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* header */
 .header {
@@ -66,7 +70,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 78px;
+  margin-right: 76px;
 }
 .logo-studio {
   color: #2e2f42;
@@ -89,6 +93,10 @@ body {
   color: #404bbf;
 }
 /* пошта телефон */
+.adress-list {
+  display: flex;
+  gap: 40px;
+}
 .contacts {
   font-style: normal;
   margin-left: auto;
@@ -108,14 +116,26 @@ body {
 .contacts-link:focus {
   color: #404bbf;
 }
-.contacts-link.tel {
-  margin-left: 40px;
-}
+
 /* герой */
 .hero {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+}
+.title.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  max-width: 496px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  /* WHITE */
+  color: #ffffff;
+  background-color: #2e2f42;
 }
 /* кнопки */
 .button {
@@ -124,6 +144,9 @@ body {
 /* кнопка замовлень на головній сторінці */
 .order-btn {
   display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto', sans-serif;
@@ -152,10 +175,19 @@ body {
 
 .feature-description {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .feature-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
+}
+.title.studio-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .feature-items {
   max-width: 264px;
@@ -183,6 +215,8 @@ body {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 /* колір фону секції для команди */
 .team-backcolor {
@@ -191,16 +225,22 @@ body {
 /* колір фону для фото команди */
 .team-cards {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .teamcard-titles {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   margin-bottom: 8px;
   /* NAVY BLUE */
   color: #2e2f42;
 }
+.teamcard-posithon {
+  text-align: center;
+}
+
 /* підвал */
 .footer {
   padding-top: 100px;
@@ -266,27 +306,7 @@ body {
 .title {
   color: #2e2f42;
 }
-.title.main-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  width: 496px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 48px;
-  /* WHITE */
-  color: #ffffff;
-  background-color: #2e2f42;
-}
-.title.studio-titles {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-}
+
 .subtitles {
   font-weight: 700;
   font-size: 36px;
