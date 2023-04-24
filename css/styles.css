@@ -226,6 +226,10 @@ body {
   text-decoration: none;
 }
 /* portfolio */
+.main-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .filtr-list {
   display: flex;
 }
