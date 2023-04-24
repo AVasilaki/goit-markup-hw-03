@@ -54,8 +54,9 @@ body {
 .item-menu:not(:last-child) {
   margin-right: 40px;
 }
-
+/* header */
 /* логотип */
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -125,8 +126,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto', sans-serif;
-  width: 169px;
-  height: 56px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
   /* IRIS */
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -222,7 +225,10 @@ body {
 .link {
   text-decoration: none;
 }
-
+/* portfolio */
+.filtr-list {
+  display: flex;
+}
 .filtr-btn {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -230,6 +236,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   color: var(--btn-color);
   background-color: var(--filter-btn);
 }
