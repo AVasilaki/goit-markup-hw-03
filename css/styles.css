@@ -51,13 +51,12 @@ body {
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 0 15px;
+  padding: 24px 0;
 }
-.section-header {
+.container-header {
   display: flex;
   align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 0 15px;
 }
 /* логотип */
 
@@ -118,8 +117,7 @@ body {
 
 /* герой */
 .hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 .title.main-title {
@@ -205,8 +203,8 @@ body {
 }
 /*  команда*/
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
+  background-color: #f4f4fd;
 }
 .card-content {
   display: flex;
@@ -218,9 +216,7 @@ body {
   padding-right: 16px;
 }
 /* колір фону секції для команди */
-.team-backcolor {
-  background-color: #f4f4fd;
-}
+
 /* колір фону для фото команди */
 .team-cards {
   background-color: #ffffff;
