@@ -189,7 +189,9 @@ body {
   max-width: 264px;
 }
 /* секція3 що ми робимо */
-
+.samples-section {
+  padding-bottom: 120px;
+}
 .what-are-doin {
   margin-bottom: 72px;
 }
@@ -206,9 +208,6 @@ body {
   background-color: #f4f4fd;
 }
 .card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
@@ -254,7 +253,8 @@ body {
 }
 .logo-footer {
   display: inline-block;
-  margin-bottom: 16px;
+
+  margin-right: 0;
 }
 /* списки */
 .list {
