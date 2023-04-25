@@ -243,7 +243,6 @@ body {
 }
 
 .footer-text {
-  margin-top: 16px;
   max-width: 264px;
   /* CLOUD */
   color: #f4f4fd;
@@ -253,7 +252,7 @@ body {
 }
 .logo-footer {
   display: inline-block;
-
+  margin-bottom: 16px;
   margin-right: 0;
 }
 /* списки */
