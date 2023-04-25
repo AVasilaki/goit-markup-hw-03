@@ -312,13 +312,7 @@ body {
 .samples-list-portfolio:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.portfolio-cards {
-  padding-bottom: 32px;
-}
-.img-portfolio {
-  border-bottom: 1px solid #e7e9fc;
-  margin-bottom: 32px;
-}
+
 /* назви додатків і категорія */
 .apps-name {
   padding: 32px 16px;
