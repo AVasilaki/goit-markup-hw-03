@@ -319,6 +319,21 @@ body {
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: 32px;
 }
+/* назви додатків і категорія */
+.apps-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.app-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
 /* заголовки */
 .title {
   color: #2e2f42;
