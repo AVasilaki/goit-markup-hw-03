@@ -171,8 +171,7 @@ body {
 /* секція2 майбутнє */
 
 .feature-description {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .feature-list {
   display: flex;
